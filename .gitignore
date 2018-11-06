@@ -1,0 +1,11 @@
+/target
+/logfiles
+/receiveLogfiles
+*.iml
+/.idea
+/out
+/logs
+/build
+/.gradle
+/gradle
+*.log
