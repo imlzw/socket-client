@@ -6,7 +6,7 @@
 
     <groupId>com.ndasec</groupId>
     <artifactId>socket-client</artifactId>
-    <version>1.0</version>
+    <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <properties>
@@ -32,4 +32,14 @@
             <version>3.8.1</version>
         </dependency>
     </dependencies>
+    <distributionManagement>
+        <repository>
+            <id>ndasec</id>
+            <url>http://maven.work.net:8081/repository/ndasec/</url>
+        </repository>
+        <snapshotRepository>
+            <id>ndasec-snapshot</id>
+            <url>http://maven.work.net:8081/repository/ndasec-snapshot/</url>
+        </snapshotRepository>
+    </distributionManagement>
 </project>
