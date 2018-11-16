@@ -1,6 +1,4 @@
 /target
-/logfiles
-/receiveLogfiles
 *.iml
 /.idea
 /out
