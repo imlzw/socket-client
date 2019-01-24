@@ -3,6 +3,7 @@ package com.ndasec.socket;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
+import java.util.Set;
 import java.util.concurrent.ConcurrentHashMap;
 
 
@@ -115,6 +116,10 @@ public class ExpireableCache {
         }
         return deleteKeyList;
 
+    }
+
+    public Set<String> keySet() {
+        return this.cacheObjMap.keySet();
     }
 
     public static void main(String[] args) {
